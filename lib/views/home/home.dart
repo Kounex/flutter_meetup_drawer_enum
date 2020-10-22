@@ -16,30 +16,7 @@ class HomeView extends StatelessWidget {
           children: [
             SizedBox(
               height: 300.0,
-              child: Stack(
-                alignment: Alignment.center,
-                children: [
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black,
-                          blurRadius: 50.0,
-                          spreadRadius: 50.0,
-                        ),
-                      ],
-                    ),
-                  ),
-                  Image.asset('assets/images/dark_sign.png'),
-                  Transform.scale(
-                    scale: 0.3,
-                    child: Image.asset('assets/images/knight.png'),
-                  ),
-                ],
-              ),
+              child: Image.asset('assets/images/bonfire.gif'),
             ),
             Text(
               'Welcome, Ashen One',
